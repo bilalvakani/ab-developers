@@ -79,7 +79,7 @@ const Foooter = () => {
       <a
         className="text-neutral-800 dark:text-neutral-400"
         href="https://tw-elements.com/"
-      >Bilal vakani</a>
+      >A&B DEVELOPERS</a>
     </div>
   </footer>
 
