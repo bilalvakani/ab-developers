@@ -12,7 +12,6 @@ const About = () => {
       className='md:min-h-screen flex flex-col-reverse md:flex-row items-center gap-5 md:mx-32 mx-5 mt-14'
       id="about"
     >
-      {/* Image Section */}
       <motion.div
         className='w-full md:w-2/4'
         initial={{ opacity: 0, x: -100 }}
@@ -34,7 +33,7 @@ const About = () => {
           I also collaborate with a skilled team of developers and designers to take on larger 
           projects. Our team approach ensures every detail is refined, and we deliver innovative 
           solutions that meet your unique needs. From brainstorming ideas to deployment, we 
-          work together to bring your vision to life.
+          work together to bring your vision to the life.
         </p>
         <Link to="contact" spy={true} smooth={true} duration={500}>
           <Button title="Contact Us" />
